@@ -1,0 +1,137 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    // "no-unused-vars": ["error"], // eslint:recommended
+    "keyword-spacing": ["error", { "before": true, "after": true }],
+    "space-before-function-paren": ["error", "always"],
+    "eqeqeq": ["error", "always", { "null": "ignore" }],
+    "space-infix-ops": ["error"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": false }],
+    "curly": ["error", "all"],
+    "handle-callback-err": ["error", "^(err|error)$"],
+    // "no-undef": ["error"], // eslint:recommended
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "operator-linebreak": ["error"],
+    "one-var": ["error", "never"],
+    // "no-cond-assign": ["error"], // eslint:recommended
+    "block-spacing": ["error", "always"],
+    "camelcase": ["error", { "properties": "never" }],
+    "comma-dangle": ["error"],
+    "comma-style": ["error", "last"],
+    "dot-location": ["error", "property"],
+    "eol-last": ["error", "always"],
+    "func-call-spacing": ["error", "never"],
+    "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
+    "new-cap": ["error", { "newIsCap": true, "capIsNew": true, "properties": true }],
+    "new-parens": ["error"],
+    "accessor-pairs": ["error"],
+    // "constructor-super": ["error"], // eslint:recommended
+    "no-array-constructor": ["error"],
+    "no-caller": ["error"],
+    // "no-class-assign": ["error"], // eslint:recommended
+    // "no-const-assign": ["error"], // eslint:recommended
+    "no-constant-condition": ["error", { "checkLoops": false }], // eslint:recommended
+    // "no-control-regex": ["error"], // eslint:recommended
+    // "no-debugger": ["error"], // eslint:recommended
+    // "no-delete-var": ["error"], // eslint:recommended
+    // "no-dupe-args": ["error"], // eslint:recommended
+    // "no-dupe-class-members": ["error"], // eslint:recommended
+    // "no-dupe-keys": ["error"], // eslint:recommended
+    // "no-duplicate-case": ["error"], // eslint:recommended
+    "no-duplicate-imports": ["error"],
+    // "no-empty-character-class": ["error"], // eslint:recommended
+    // "no-empty-pattern": ["error"], // eslint:recommended
+    // "no-ex-assign": ["error"], // eslint:recommended
+    "no-eval": ["error"],
+    "no-extend-native": ["error"],
+    "no-extra-bind": ["error"],
+    // "no-extra-boolean-cast": ["error"], // eslint:recommended
+    "no-extra-parens": ["error", "functions"],
+    // "no-fallthrough": ["error"], // eslint:recommended
+    "no-floating-decimal": ["error"],
+    // "no-func-assign": ["error"], // eslint:recommended
+    // "no-global-assign": ["error"], // eslint:recommended
+    "no-implied-eval": ["error"],
+    // "no-inner-declarations": ["error"], // eslint:recommended
+    // "no-invalid-regexp": ["error"], // eslint:recommended
+    // "no-irregular-whitespace": ["error"], // eslint:recommended
+    "no-iterator": ["error"],
+    "no-label-var": ["error"],
+    "no-labels": ["error"],
+    "no-lone-blocks": ["error"],
+    // "no-mixed-spaces-and-tabs": ["error"], // eslint:recommended
+    "no-multi-spaces": ["error"],
+    "no-multi-str": ["error"],
+    "no-new": ["error"],
+    "no-new-object": ["error"],
+    "no-new-func": ["error"],
+    "no-new-require": ["error"],
+    // "no-new-symbol": ["error"], // eslint:recommended
+    "no-new-wrappers": ["error"],
+    // "no-obj-calls": ["error"], // eslint:recommended
+    // "no-octal": ["error"], // eslint:recommended
+    "no-octal-escape": ["error"],
+    "no-path-concat": ["error"],
+    "no-proto": ["error"],
+    // "no-redeclare": ["error"], // eslint:recommended
+    // "no-regex-spaces": ["error"], // eslint:recommended
+    "no-return-assign": ["error"],
+    // "no-self-assign": ["error"], // eslint:recommended
+    "no-self-compare": ["error"],
+    "no-sequences": ["error"],
+    // "no-shadow-restricted-names": ["error"], // eslint:recommended
+    // "no-sparse-arrays": ["error"], // eslint:recommended
+    "no-tabs": ["error"],
+    "no-template-curly-in-string": ["error"],
+    // "no-this-before-super": ["error"], // eslint:recommended
+    "no-throw-literal": ["error"],
+    "no-trailing-spaces": ["error"],
+    "no-undef-init": ["error"],
+    "no-unmodified-loop-condition": ["error"],
+    "no-unneeded-ternary": ["error", { "defaultAssignment": false }],
+    // "no-unreachable": ["error"], // eslint:recommended
+    // "no-unsafe-finally": ["error"], // eslint:recommended
+    // "no-unsafe-negation": ["error"], // eslint:recommended
+    "no-useless-call": ["error"],
+    "no-useless-computed-key": ["error"],
+    "no-useless-constructor": ["error"],
+    // "no-useless-escape": ["error"], // eslint:recommended
+    "no-useless-rename": ["error"],
+    "no-whitespace-before-property": ["error"],
+    // "no-with": ["error"], // eslint:recommended
+    "object-property-newline": ["error", { "allowMultiplePropertiesPerLine": true }],
+    "padded-blocks": ["error", "never"],
+    "rest-spread-spacing": ["error", "never"],
+    "semi-spacing": ["error", { "before": false, "after": true }],
+    "space-before-blocks": ["error", "always"],
+    "space-in-parens": ["error", "never"],
+    "space-unary-ops": ["error", { "words": true, "nonwords": false }],
+    "spaced-comment": ["error", "always", {
+      "line": { "markers": ["!", "#", "@", "="] },
+      "block": {
+        "balanced": true,
+        "markers": ["!", "#", "@", "="],
+        "exceptions": ["*"]
+      }
+    }],
+    "template-curly-spacing": ["error", "never"],
+    // "use-isnan": ["error"], // eslint:recommended
+    "valid-typeof": ["error", { "requireStringLiterals": true }], // eslint:recommended
+    "wrap-iife": ["error", { "functionPrototypeMethods": true }],
+    "yield-star-spacing": ["error", "both"],
+    "yoda": ["error", "never"],
+    "semi": ["error", "never"],
+    "no-unexpected-multiline": ["error"]
+  }
+}
