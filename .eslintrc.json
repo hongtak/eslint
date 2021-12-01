@@ -30,7 +30,7 @@
     "eol-last": ["error", "always"],
     "func-call-spacing": ["error", "never"],
     "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
-    "new-cap": ["error", { "newIsCap": true, "capIsNew": true, "properties": true }],
+    "new-cap": ["error", { "newIsCap": true, "capIsNew": false, "properties": true }],
     "new-parens": ["error"],
     "accessor-pairs": ["error"],
     "no-array-constructor": ["error"],
