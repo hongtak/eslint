@@ -89,7 +89,7 @@
     }],
     "template-curly-spacing": ["error", "never"],
     "valid-typeof": ["error", { "requireStringLiterals": true }], // eslint:recommended
-    "wrap-iife": ["error", { "functionPrototypeMethods": true }],
+    "wrap-iife": ["error", "any", { "functionPrototypeMethods": true }],
     "yield-star-spacing": ["error", "both"],
     "yoda": ["error", "never"],
     "semi": ["error", "never"],
