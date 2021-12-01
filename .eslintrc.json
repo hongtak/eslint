@@ -16,7 +16,7 @@
     "eqeqeq": ["error", "always", { "null": "ignore" }],
     "space-infix-ops": ["error"],
     "comma-spacing": ["error", { "before": false, "after": true }],
-    "brace-style": ["error", "1tbs", { "allowSingleLine": false }],
+    "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
     "curly": ["error", "all"],
     "handle-callback-err": ["error", "^(err|error)$"],
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
