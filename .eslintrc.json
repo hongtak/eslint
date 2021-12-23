@@ -93,7 +93,8 @@
     "yield-star-spacing": ["error", "both"],
     "yoda": ["error", "never"],
     "semi": ["error", "never"],
-    "no-unexpected-multiline": ["error"]
+    "no-unexpected-multiline": ["error"],
+    "prefer-const": ["error"]
   }
 }
 
